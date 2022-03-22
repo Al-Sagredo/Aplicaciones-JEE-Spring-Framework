@@ -1,0 +1,65 @@
+2022-03-22 15:08:57.490  INFO 11584 --- [restartedMain] c.d.S.SistemaNoticias2Application        : Starting SistemaNoticias2Application using Java 17.0.1 on LAPTOP-QT1Q18NQ with PID 11584 (C:\Users\theic\eclipse-workspace\SistemaNoticias2\target\classes started by theic in C:\Users\theic\eclipse-workspace\SistemaNoticias2)
+2022-03-22 15:08:57.491  INFO 11584 --- [restartedMain] c.d.S.SistemaNoticias2Application        : No active profile set, falling back to 1 default profile: "default"
+2022-03-22 15:08:57.685  INFO 11584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-22 15:08:57.686  INFO 11584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-22 15:08:57.686  INFO 11584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-22 15:08:57.707  INFO 11584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-22 15:08:57.707  INFO 11584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 213 ms
+2022-03-22 15:08:57.740  INFO 11584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-22 15:08:57.759  INFO 11584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-22 15:08:57.769  INFO 11584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-22 15:08:57.772  INFO 11584 --- [restartedMain] c.d.S.SistemaNoticias2Application        : Started SistemaNoticias2Application in 0.336 seconds (JVM running for 2883.37)
+2022-03-22 15:08:57.773  INFO 11584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-22 15:08:57.774  INFO 11584 --- [restartedMain] c.d.S.SistemaNoticias2Application        : noticia lista para ser desplegada
+2022-03-22 15:08:57.774  WARN 11584 --- [restartedMain] c.d.S.SistemaNoticias2Application        : warning log
+2022-03-22 15:08:57.774 ERROR 11584 --- [restartedMain] c.d.S.SistemaNoticias2Application        : ERROR
+2022-03-22 15:09:08.136  INFO 11584 --- [RMI TCP Connection(89)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-22 15:09:10.351  INFO 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : Starting SistemaNoticias2Application using Java 17.0.1 on LAPTOP-QT1Q18NQ with PID 25480 (C:\Users\theic\eclipse-workspace\SistemaNoticias2\target\classes started by theic in C:\Users\theic\eclipse-workspace\SistemaNoticias2)
+2022-03-22 15:09:10.353  INFO 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : No active profile set, falling back to 1 default profile: "default"
+2022-03-22 15:09:10.401  INFO 25480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-22 15:09:10.402  INFO 25480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-22 15:09:11.475  INFO 25480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-22 15:09:11.488  INFO 25480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-22 15:09:11.489  INFO 25480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-22 15:09:11.579  INFO 25480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-22 15:09:11.580  INFO 25480 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1178 ms
+2022-03-22 15:09:11.837  INFO 25480 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-22 15:09:11.964  INFO 25480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-22 15:09:12.028  INFO 25480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-22 15:09:12.038  INFO 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : Started SistemaNoticias2Application in 2.075 seconds (JVM running for 2.768)
+2022-03-22 15:09:12.042  INFO 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : noticia lista para ser desplegada
+2022-03-22 15:09:12.042  WARN 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : warning log
+2022-03-22 15:09:12.042 ERROR 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : ERROR
+2022-03-22 15:09:25.554  INFO 25480 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-22 15:09:25.555  INFO 25480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-22 15:09:25.556  INFO 25480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-03-22 15:17:10.543  INFO 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : Starting SistemaNoticias2Application using Java 17.0.1 on LAPTOP-QT1Q18NQ with PID 25480 (C:\Users\theic\eclipse-workspace\SistemaNoticias2\target\classes started by theic in C:\Users\theic\eclipse-workspace\SistemaNoticias2)
+2022-03-22 15:17:10.546  INFO 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : No active profile set, falling back to 1 default profile: "default"
+2022-03-22 15:17:11.132  INFO 25480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-22 15:17:11.134  INFO 25480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-22 15:17:11.135  INFO 25480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-22 15:17:11.170  INFO 25480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-22 15:17:11.170  INFO 25480 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 610 ms
+2022-03-22 15:17:11.242  INFO 25480 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-22 15:17:11.296  INFO 25480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-22 15:17:11.310  INFO 25480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-22 15:17:11.317  INFO 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : Started SistemaNoticias2Application in 0.871 seconds (JVM running for 482.046)
+2022-03-22 15:17:11.320  INFO 25480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-22 15:17:11.321  INFO 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : noticia lista para ser desplegada
+2022-03-22 15:17:11.322  WARN 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : warning log
+2022-03-22 15:17:11.322 ERROR 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : ERROR
+2022-03-22 15:17:44.490  INFO 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : Starting SistemaNoticias2Application using Java 17.0.1 on LAPTOP-QT1Q18NQ with PID 25480 (C:\Users\theic\eclipse-workspace\SistemaNoticias2\target\classes started by theic in C:\Users\theic\eclipse-workspace\SistemaNoticias2)
+2022-03-22 15:17:44.490  INFO 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : No active profile set, falling back to 1 default profile: "default"
+2022-03-22 15:17:44.702  INFO 25480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-22 15:17:44.703  INFO 25480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-22 15:17:44.703  INFO 25480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-22 15:17:44.730  INFO 25480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-22 15:17:44.730  INFO 25480 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 236 ms
+2022-03-22 15:17:44.792  INFO 25480 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-22 15:17:44.824  INFO 25480 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-22 15:17:44.836  INFO 25480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-22 15:17:44.840  INFO 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : Started SistemaNoticias2Application in 0.383 seconds (JVM running for 515.569)
+2022-03-22 15:17:44.842  INFO 25480 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-22 15:17:44.842  INFO 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : noticia lista para ser desplegada
+2022-03-22 15:17:44.843  WARN 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : warning log
+2022-03-22 15:17:44.843 ERROR 25480 --- [restartedMain] c.d.S.SistemaNoticias2Application        : ERROR

@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Noticias</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	crossorigin="anonymous">
+
+</head>
+<body>
+
+<h1 class="pb-5" style="text-align:center;">Noticias</h1>
+	<table class="pt-5">
+		<tr class="card-group">
+
+			<td class="card"><img style="height:21%;" class="card-img-top" th:src="@{${url1}}">
+				<div class="card-body">
+					<h2 class="card-title" th:text="${titulo1}"></h2>
+					<p class="card-text" th:text="${cuerpo1}"></p></td>
+			  </div>
+			<td class="card"><img class="card-img-top" th:src="@{${url2}}">
+				
+				<div class="card-body">
+				<h2 class="card-title" th:text="${titulo2}"></h2>
+				<p class="card-text" th:text="${cuerpo2}"></p></td>
+				 </div>
+			<td class="card"><img class="card-img-top" th:src="@{${url3}}">
+				<div class="card-body">
+				<h2 class="card-title" th:text="${titulo3}"></h2>
+				<p class="card-text" th:text="${cuerpo3}"></p></td>
+				 </div>
+			<td class="card"><img class="card-img-top" th:src="@{${url4}}">
+				<div class="card-body">
+				<h2 class="card-title" th:text="${titulo4}"></h2>
+				<p class="card-text" th:text="${cuerpo4}"></p></td>
+				 </div>
+			<td class="card"><img class="card-img-top" th:src="@{${url5}}">
+				<div class="card-body">
+				<h2 class="card-title" th:text="${titulo5}"></h2>
+				<p class="card-text" th:text="${cuerpo5}"></p></td>
+ 			</div>
+		</tr>
+
+	</table>
+
+
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+
+</body>
+</html>
+
