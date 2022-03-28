@@ -45,10 +45,7 @@ public class ContactController {
 			listaContactos.add(contacto);
 			model.put("listaContactos", listaContactos);
 		}
-			
-			System.out.println("tamaño lista: " + listaContactos.size());
-			System.out.println("getNombre: " + contacto.getNombre());
-			System.out.println("getId: " + contacto.getId());
+
 
 		return new ModelAndView("contactManager", "contacto", contacto);
 	}
