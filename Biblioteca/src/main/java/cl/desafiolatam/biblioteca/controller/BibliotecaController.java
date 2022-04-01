@@ -67,7 +67,6 @@ public class BibliotecaController {
 	@PostMapping("/editar")
 	public ModelAndView editar(@ModelAttribute Libro libro, RedirectAttributes ra) {
 		LibroVO respuestaServicio = svc.update(libro);
-		System.out.println("controller titulo: " + libro.getTitulo() + " id: " + libro.getId());
 		ra.addFlashAttribute("mensaje", respuestaServicio.getMensaje());
 		if (respuestaServicio.getCodigo().equals("0")) {
 			return new ModelAndView("redirect:/home");
