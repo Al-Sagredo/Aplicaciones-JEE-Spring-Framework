@@ -30,7 +30,6 @@ public class LibroDaoImpl implements LibroDao {
 	@Override
 	public int update(Libro libro) {
 		String sql = "update libro set titulo=?, autor=?, ano=?, imprenta=?, disponible=? where id=?";
-		System.out.println("id libro: " + libro.getId() + " titulo: " + libro.getTitulo());
 		return jdbcTemplate.update(sql, libro.getTitulo(), libro.getAutor(), libro.getAno(), libro.getImprenta(),
 				libro.getDisponible(), libro.getId());
 	}
