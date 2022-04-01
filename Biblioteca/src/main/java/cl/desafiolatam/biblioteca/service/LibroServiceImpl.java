@@ -54,7 +54,6 @@ public class LibroServiceImpl implements LibroService {
 	@Override
 	public LibroVO update(Libro libro) {
 		respuesta = new LibroVO(new ArrayList<Libro>(), "Ha ocurrido un error", "103");
-		System.out.println("vo titulo: " + libro.getTitulo() + " id: " + libro.getId());
 		try {
 			int registrosActualizados = dao.update(libro);
 			respuesta.setMensaje(String.format("Se ha/n actualizado correctamente %d libro/s", registrosActualizados));
